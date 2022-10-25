@@ -1,0 +1,71 @@
+.css-1a72jx6-MuiTypography-root-MuiLink-root {
+  text-decoration: none !important;
+
+  &:hover {
+    text-decoration: underline !important;
+  }
+}
+ul {
+  list-style: none;
+}
+.navBar {
+  // 导航
+  height: 70px;
+  .nav {
+    float: left;
+    height: 70px;
+    .avatar {
+      display: inline-block;
+      margin-right: 20px;
+      width: 80px;
+      height: 70px;
+    }
+    ul {
+      display: flex;
+
+      .select {
+        margin-top: 10px;
+      }
+
+      li {
+        margin-right: 48px;
+        line-height: 70px;
+        a {
+          padding-bottom: 6px;
+          color: #808080;
+          font-size: 20px;
+          &:hover {
+            color: #27ba9b;
+            border-bottom: 1px solid #27ba9b;
+          }
+        }
+      }
+    }
+  }
+  .other {
+    float: right;
+    height: 70px;
+    margin-right: 20px;
+    li {
+      float: right;
+      margin-left: 48px;
+      line-height: 70px;
+      .wallet {
+        border: 0;
+        font-size: 20px;
+      }
+      a {
+        padding-bottom: 6px;
+        font-size: 20px;
+        color: #808080;
+        &:hover {
+          color: #27ba9b;
+          border-bottom: 1px solid #27ba9b;
+        }
+      }
+    }
+    .bot {
+      display: none;
+    }
+  }
+}
